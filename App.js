@@ -25,6 +25,9 @@ export default function App() {
   if (selectedImage !== null) {
     return (
       <View style = {styles.container}>
+        <Text>
+          Here is your image
+        </Text>
         <Image
           source = {{uri: selectedImage.localUri}}
           style = {styles.thumbnail}
